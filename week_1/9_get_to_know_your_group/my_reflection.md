@@ -8,3 +8,18 @@ Take a moment to reflect on reading other people's responses regarding their fea
 
 <!-- Insert your response here -->
 
+Hey everyone, 
+
+I am Eric and I live in Williamsburg, Brooklyn, which is really fun. My favorite websites are twitter.com, youtube.com, and medium.com. My thinking style was a tie between Abstract Sequential and Concrete Random. My Vark style is Kinesthetic. 
+
+I like to eat a lot. I also like to run a lot. Some say I have a problem. 
+
+My main blog is at eshem.github.io and my repo is at https://github.com/eshem/phase_0_unit_1, I am still working on making it look a lot better. My wireframes are at eshem.github.io/wireframe_sites.html.
+
+Looking forward to meeting you guys soon.
+
+Best,
+
+Eric
+
+* I mostly enjoyed viewing other people's sites. I noticed that many have the same fears about DBC, which is fair and comforting. 
