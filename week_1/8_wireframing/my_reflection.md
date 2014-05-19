@@ -11,3 +11,8 @@
 * Which parts of the challenge did you find tedious?
 
 <!-- Add your reflection here. Remove the comment markers -->
+
+* I think a lot of what I learned from this exercise was with regards to changing my thought process when visiting a site. Thinking how they worked to design a site for a great user experience but also thinking about how specific content should be displayed. 
+* I did really enjoy this and it made me appreciate how important UX really is. I know have a completely different view after changing my perspective.
+* I wiki'd about to find out a bit more about user experience. 
+* Drawing out the actual wireframe was really fun as it allowed me to get creative with my view of the site creator's hopes.
