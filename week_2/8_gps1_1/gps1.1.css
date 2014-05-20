@@ -1,1 +1,14 @@
-/* include your css here */
+    body {
+            background-color: green;
+        }
+        img {
+            float: right;
+        }
+        p {color: blue;
+            font-family: "arial";
+        }
+        h1 {
+            padding-bottom: 3px;
+            border-bottom: 1px solid black;
+        }
+    </style>
