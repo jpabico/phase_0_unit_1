@@ -1,4 +1,5 @@
-    body {
+    <style>
+        body {
             background-color: green;
         }
         img {
@@ -6,9 +7,13 @@
         }
         p {color: blue;
             font-family: "arial";
+            margin-top: 80px;
         }
         h1 {
-            padding-bottom: 3px;
             border-bottom: 1px solid black;
+            position:fixed;
+            height: 40px;
+            width: 500px;
+            background-color:white;
+        
         }
-    </style>
