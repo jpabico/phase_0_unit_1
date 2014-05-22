@@ -1,1 +1,31 @@
-/* include your css here */
+        body {
+            background-image: url('http://pshero.com/assets/tutorials/0062/final.jpg');
+            font-family: helvetica;
+            }  
+        p{
+            background-color:white;
+            }
+        #header-wrapper{
+            }
+        
+        header{
+            background-color:#E5B5B1;
+            padding:25px;
+            border-radius:25px;
+            }
+        h1{
+            font-size:50px;
+            color:white;
+            text-shadow:2px 2px 1px #555555;
+            text-align:center;
+            letter-spacing:4px;
+        }
+        div {
+            margin:-10px;
+            padding:25px 300px;
+        }
+        article, footer {
+            background-color:white;
+            padding:25px 50px;
+            border-radius: 25px;
+        }
