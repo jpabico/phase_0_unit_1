@@ -11,6 +11,17 @@ move right
 move down
 move down
 attack
+
+this.moveDown();
+this.moveDown();
+this.moveRight();
+this.moveUp();
+this.moveUp();
+this.moveRight();
+this.moveRight();
+this.moveDown();
+this.moveDown();
+this.attackNearbyEnemy();
  
  // mushroom
  up
@@ -19,7 +30,13 @@ attack
  up
  attack
  
- // munchkins
+ this.moveUp();
+this.moveRight();
+this.moveLeft();
+this.moveUp()
+this.attackNearbyEnemy();
+ 
+ // drink me
  right
  attack
  right
@@ -27,6 +44,14 @@ attack
  up
  right
  attack
+ 
+ this.moveRight();
+this.attackNearbyEnemy();
+this.moveRight();
+this.moveDown();
+this.moveUp();
+this.moveRight();
+this.attackNearbyEnemy();
  
  // taunt
  
@@ -45,6 +70,23 @@ attack
  up 
  right
  
+ this.moveRight();
+this.moveUp();
+this.say("Hey, Follow me.");
+this.moveDown();
+this.moveRight();
+this.moveRight();
+this.moveUp();
+this.moveUp();
+this.moveRight();
+this.moveRight();
+this.say("hey fellaz");
+this.moveDown();
+this.moveDown();
+this.moveRight();
+this.moveUp();
+this.moveRight();
+ 
 // its a trap 
  down
  down
@@ -52,9 +94,19 @@ attack
  up
  up
  
+ this.moveDown(20);
+this.say("hey suckas");
+this.moveUp(20);
+ 
  // taunt
  
  say something 4x unique  items
+ 
+ this.say("sup punk");
+this.say("follow me follow me follow me follow me follow me follow me follow me follow me follow me");
+this.say("you");
+this.say("sucke");
+
  
  // cowardly taunt
  
@@ -62,11 +114,20 @@ attack
  say a taunt
  move to safety
  
+ this.moveXY(63,20);
+this.say("sup");
+this.moveXY(70,10);
+
  // commanding followers
  say follow me
  move to enemy coords
  say attack
  move to safety
+ 
+ this.say("follow me");
+this.moveXY(62, 32);
+this.say("attack boys");
+this.moveXY(75, 63);
  
  // mobile artillery
  move in to range
@@ -76,6 +137,14 @@ attack
  attack right but closer to turret
  attack left
  attack left but closer to turret
+ 
+ this.moveXY(30, 26); 
+this.attackXY(46, 5); 
+this.moveXY(53, 38);
+this.attackXY(69, 57);
+this.attackXY(63, 47);
+this.attackXY(49, 67);
+this.attackXY(50, 52);
  
 // Reflection:
 // Write your reflection here.
