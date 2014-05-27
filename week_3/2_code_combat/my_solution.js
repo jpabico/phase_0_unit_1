@@ -52,9 +52,30 @@ attack
  up
  up
  
- say something
+ // taunt
  
+ say something 4x unique  items
  
+ // cowardly taunt
+ 
+ move to bad coordinate
+ say a taunt
+ move to safety
+ 
+ // commanding followers
+ say follow me
+ move to enemy coords
+ say attack
+ move to safety
+ 
+ // mobile artillery
+ move in to range
+ attack
+ move in to middle range
+ attack right
+ attack right but closer to turret
+ attack left
+ attack left but closer to turret
  
 // Reflection:
 // Write your reflection here.
