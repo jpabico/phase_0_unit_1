@@ -21,22 +21,22 @@ After you make all your changes, you'll want to commit, for git to take a snap o
 This pulls down any changes that others may have made to the repo. Or if it is a new repo, will download the data to your machine. 
 
 #### log
-<!-- Your defnition here -->
+Log shows you how you have reached the commit you're currently at. So it shows you what changes have been made over different commits and by who. Essentially showing you the evolution to the current state.
 
 #### merge
-<!-- Your defnition here -->
+Merge will combine two branches by automatically figuring out a way to combine two different commits. This allows you to incorporate work you have completed on a branch back in to your master.
 
 #### pull
-<!-- Your defnition here -->
+Pull allows you to bring down any commits or changes that have been made to the master and incorporate them in to your commit. Pull is essentially a combination of fetch and merge. 
 
 #### push
-<!-- Your defnition here -->
+Push allows you to push your commit to a remote server. ie git push github master will update what you have in github to your most recent commit.
 
 #### reset
-<!-- Your defnition here -->
+As I understand it, rest is essentially an undo for a commit. So if you commit something and realize you were in the wrong branch, or accidentally made a change, you can undo it using reset. 
 
 #### rm
-<!-- Your defnition here -->
+RM for remove, removes the file from being tracked by git and also removes it from your directory. If you cache it, git will ignore, but it won't remove it from the dir. 
 
 #### status
   This shows you not only the directory you're working in, but where you're at in terms of changes made and in terms of your most recent commit.
