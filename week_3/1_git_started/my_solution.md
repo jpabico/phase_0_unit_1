@@ -3,48 +3,51 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+this command adds whatever file to the git staging area
 
 #### branch
-<!-- Your defnition here -->
+lists local branches
 
 #### checkout
-<!-- Your defnition here -->
+change between branches
 
 #### clone
-<!-- Your defnition here -->
+clone a copy of a remote repo/project to your computer/local git repository
 
 #### commit
-<!-- Your defnition here -->
+records the changes you made in your staging area
 
 #### fetch
-<!-- Your defnition here -->
+download a new copy of a remote repository/data
 
 #### log
-<!-- Your defnition here -->
+see your commit history
 
 #### merge
-<!-- Your defnition here -->
+merge other branches into your main branch
 
 #### pull
-<!-- Your defnition here -->
+fetch changes from a remote repository and merge with existing one
 
 #### push
-<!-- Your defnition here -->
+upload changes in your local branch to your remote repo
 
 #### reset
-<!-- Your defnition here -->
+reset changes/commits you made
 
 #### rm
-<!-- Your defnition here -->
+remove files from staging area
 
 #### status
-
+view files in directory and staging area
 
 ## Release 4: Git Workflow
 
 - Push files to a remote repository
+first add the remote origin using git remote add origin [github url here] or use git clone to get a copy of the remote directory.
+once you have changes you can push your changes using git push -u origin master
 - Fetch changes
+git pull origin master
 - Commit locally
-
+git commit -m "commit change message"
 ## Release 5: Reflection
