@@ -10,7 +10,7 @@ var terah = {
   height: 66,
   weight: 130,
   hairColor: "brown",
-  eyeColor: "brown"
+  eyeColor: "brown",
 }
 /* Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
@@ -45,10 +45,12 @@ var terah = {
 
 // __________________________________________
 // Write your code below.
-
-
-
-
+var adam = {
+}
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+terah.eyeColor = removed;
 
 
 
