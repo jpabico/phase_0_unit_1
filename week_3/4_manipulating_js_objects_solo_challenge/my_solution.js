@@ -70,12 +70,15 @@ adam.children = terah.children;
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+// I found this challenge a little bit difficult at first, but got through most of it until I had to
+// add children to terah. I first tried adding tera.children as an empty hash, but then forgot to add
+// carson as another empty hash and was instead just trying to add terah.children.carson.name, once i
+// realized that i neeeded to create another hash for carson and each child under terah.children, everything went smoothly.
+// another problem I encourntered was figuring out how to delete terah's eyecolor, I kept trying to use
+// terah.remove.eyecolor, or terah.eyecolor.remove i finally gave up and looked up how to delete a property on google.
+// I foudn that this challenge was a good learning experience. One of the things I was thinking about
+// when i was doing this challenge was whether it would be ok to just create a non-empty hash. I thought that
+// would have been much easier, but doing it this way proved to be a better learning experience.
 
 
 // __________________________________________
