@@ -1,152 +1,145 @@
-// I worked on this challenge [by myself, with:]
+// I worked on this challenge by myself.
  
 // For each mission, write the title as a comment. (Shown here). Also include pseudocode as a comment. 
 // Note: to make commenting easier, you can highlight the section you want to comment and hold 
 // command + / This will comment the line. 
  
-// --- Rescue Mission ---
-// move upx2
+  //***Rescue Mission*****
+
+//move upx2
 // move right x2
-// move down
-// attack
-this.moveDown();
-this.moveDown();
-this.moveRight();
-this.moveUp();
+//move down x1
+//attack
 this.moveUp();
 this.moveRight();
 this.moveRight();
 this.moveDown();
 this.attackNearbyEnemy();
-this.moveDown();
  
-// --- Grab the Mushroom ---
-//move up
+// *****Grab the Mushroom****
+
+// move up
 //move right
 //move left
 //move up
 //attack
-this.moveUp();
-this.moveRight();
-this.moveLeft();
-this.moveUp();
 this.attackNearbyEnemy();
 
-// --- Drink Me ---
-//move right
+// ****Drink Me
+
 //attack
+this.attackNearbyEnemy();
+//moveright
+this.moveRight();
+//move down
+this.moveDown();
+//move up
+this.moveUp();
 //move right
-// move down
-// move up
-// move right
-// attack
 this.moveRight();
+//attack
 this.attackNearbyEnemy();
-this.moveRight();
-this.moveDown();
-this.moveUp();
-this.moveRight();
-this.attackNearbyEnemy();
- 
-// --- Taunt the Guards ---
 
-// move right
-// break door
-// move right
-// taught Guards
-// move left
-// move left
-// signal pheobe to attack
-// move right
-// tell pheobe to follow me
-// move right x2
-// move up
-// move right
-// taught Guards
-// move down
-// move right
-// move up
-// move right
+//**********Taunt the Gaurds*****
+//moveright
 this.moveRight();
+//bust down door
 this.bustDownDoor();
+//move right
 this.moveRight();
-this.say("Hey there!");
+//say wassup
+this.say("Hello")
+//move left x2
 this.moveLeft();
 this.moveLeft();
-this.say("Attack!");
+//say attack;
+this.say("Attack")
+//get phoebe to fllow move right
 this.moveRight();
-this.say("Follow me.");
+//follow me
+this.say("Follow me")
+
 this.moveRight();
 this.moveRight();
+//move up
 this.moveUp();
+//move right
 this.moveRight();
-this.say('hey there!');
+// say hello
+this.say("Heylow")
+//move down
 this.moveDown();
+//move right
 this.moveRight();
+//move up
 this.moveUp();
+//move right
 this.moveRight();
+  
 
-// --- It's a Trap ---
+//*****It's a Trap*****
 
-// move down x2
-// taught Guards
-// move up x2
-// signal for attack
+//move down
 this.moveDown();
 this.moveDown();
-this.say("hey you!");
+//say wassup
+this.say("wassup")
+//move up
 this.moveUp();
-this.moveUp();
-this.say("attack!");
+this.moveUp();  
 
-// --- Taunt ---
+//**break the trap, its a prison 
 
-// Taught guard x4
-this.say("Hey!");
-this.say("Hey ugly");
-this.say("Hey fatso");
-this.say("Hey dummy");
-this.say("you idiot!");
 
-// --- Cowardly Taunt ---
+// **Taunt***
+
+//say taunts 4x
+this.say("Hey you");
+this.say("Wanna fight?");
+this.say("Come here!");
+this.say("You scared?");
+
+// **Cowardly taunt***
 // Run your soldier out where the ogres can hear you.
+this.moveXY(50,16);
 // Say something!
+this.say("Yolo");
 // Then run back behind the arrow towers for safety.
-this.moveXY(50, 16);
-this.say("hey dumbo!"); 
-this.moveXY(63, 20);
-this.moveXY(70, 10); 
+this.moveXY(70,10);
 
-// --- Commanding Followers ---
-this.moveXY(49, 66);
-this.moveXY(60, 63);
-this.moveXY(75, 63);
-this.say("Hail, friends!");
+//**Commanding Followers
 
-// Saying anything with "follow" in it will get nearby soldiers
-// to follow you
-this.say("Follow me!")
-// Saying anything with "attack" will send nearby troops into
-// a battle mode.
-this.moveXY(65,45)
-this.say("attack!")
+// Saying anything with "follow" in it will get nearby soldiers to follow you
+this.say("follow the leader");
+// Saying anything with "attack" will send nearby troops into a battle mode.
+this.say("Time to attack");
 // Make sure Tharin is safe!
+this.moveXY(62,46)
+//taunt
+this.say("OGRE!")
+//move to safety
+this.moveXY(60,63);
+
+//***Mobile Artillery
 
 
-// --- Mobile Artillary ---
+//move into range
+this.moveXY(57,32);
+//attack
+this.attackXY(67,52);
+this.attackXY(63,46);
+//move into range
+this.moveXY(48,44);
+//attack
+this.attackXY(49,67);
+this.attackXY(49,55);
 
-this.moveXY(30, 26);  // Move into range
-this.attackXY(46, 5);  // Shoot once in the middle of the ogres
-this.moveXY(48,40); //Move into range
-this.attackXY(49,60); // shoot into center of first orc group
-this.attackXY(47,53); // shoot at surviving ogre
-this.attackXY(68,55); // shoot at center of second orc group
-this.attackXY(60,47); // shoot at surviving ogre
+ 
+ 
+ 
+ 
+ 
  
  
 // Reflection:
-I really enjoyed this challenge since it was in the format of the game. However, I didnt feel like I gained that much knowledge.
-I understood that using this was commamding whatever object I was clicking on, and that the following commmand
-determined what it was that 'this' object would do. It was very fun to play with, and by far the most enjoyable
-of any of the challenges to date. I did find typing out the same commands over and over again tedious, but that's what
-you do in games so I'm not too upset about that.
+// Write your reflection here.
