@@ -52,8 +52,8 @@ git pull origin master
 git commit -m "commit change message"
 ## Release 5: Reflection
 
-<<<<<<< HEAD
-Working on this challenge was fairly easy for me because we had already gone over using git and github during week 1. However, it was interesting and useful to define all the commands for git although I was already using most of them, I didnt know what much of the terminology in explanations for the commands meant until I completed this challenge. I felt that the biggest thing I learned was the difference between fetch and pull. Overall I enjoyed this challenge, and feel comfortable using it.
+
+<!-- Working on this challenge was fairly easy for me because we had already gone over using git and github during week 1. However, it was interesting and useful to define all the commands for git although I was already using most of them, I didnt know what much of the terminology in explanations for the commands meant until I completed this challenge. I felt that the biggest thing I learned was the difference between fetch and pull. Overall I enjoyed this challenge, and feel comfortable using it. -->
 =======
 ## Release 5: Errors you encountered
 1. Error
