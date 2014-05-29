@@ -1,7 +1,5 @@
 # HTML and CSS cont. 
 
-Please do not start week 2 until May 19. We will make changes to curriculum and update DBC's master repository. 
-
 This week you will go into more depth on HTML and CSS and get more practice. You will also get to play with Dev Tools and consider the implications of responsive Design. Overall, this week's curriculum should give you the opportunity to go into more depth with HTML and have fun solidifying your knowledge!
 
 You have a [Cultural Assignment](7_cultural_assignment.md) this week you should look at first. 
@@ -18,19 +16,19 @@ You have a [Cultural Assignment](7_cultural_assignment.md) this week you should 
 
 
 ## Fetch DBC's Changes
-####It's time to sync changes from DevBootcamp's phase_0_unit 1 master repo!
+####It's time to sync changes from DevBootcamp's phase_0_unit 1 master repo! Make sure you are in the master branch of your phase_0_unit_1 repo. DO NOT try fetching these changes into your [USERNAME].github.io repo. You will mess things up!
+
 Follow [these instructions](https://github.com/Devbootcamp/phase_0_handbook/blob/master/fetching_changes.md)!
 
 ## Working through the challenges
 Once you have the entire local repository on your computer, you don't need to read the challenges on github anymore (although we admit, it's prettier). You can open the entire repository in sublime and read the challenges in their original markdown. It will also help you find any link issues, since you can see where they are pointing. If you do find broken links, please let us by posting on the community, but also try to figure out a fix. It will help your markdown skills!
 
+## Remember your Expectations for the Unit!
+- Pair at least twice this week with a member of your accountability group (you can feel free to pair outside of your group as well).  *You need to pair 4 times on your own this unit*
+- Give feedback for each person you paired with. *You need to submit at least 5 pieces of feedback in this unit*
+- Rate at least 7 pieces of [Meta Feedback](https://socrates.devbootcamp.com/feedback) on Socrates. *You need to rate 20 pieces of feedback per unit*
 
 ## Submitting your work
 
-**You need to submit your work through on [apply.devbootcamp.com](http://apply.devbootcamp.com) by Sunday at 11:59pm. When you log in, look at your profile page. There should be a "Unit 1 Week 2 Submission" form.** 
+**You need to submit your work through on [apply.devbootcamp.com](http://apply.devbootcamp.com) by Sunday at 11:59pm. When you log in, look at your profile page. There should be a "Unit 1 Week 2 Submission" form.** If you do not complete the challenges by Sunday, fill out the extension request form and complete the submission form when you finish.
 
-
-## Remember your Unit Goals!
-- Pair at least once this week with a member of your accountability group.  *You need to pair 3 times on your own this unit*
-- Give feedback for each person you paired with. *You need to submit at least 5 pieces of feedback in this unit*
-- Rate at least 7 pieces of [Meta Feedback](https://socrates.devbootcamp.com/feedback) on Socrates. *You need to rate 20 pieces of feedback per unit*

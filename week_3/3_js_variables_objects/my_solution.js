@@ -1,5 +1,6 @@
 // I paired with Katia on this challenge.
 
+<<<<<<< HEAD
 
 
 
@@ -10,6 +11,8 @@
 // define members set John as member 1 and Mary as member 4
 
 
+=======
+>>>>>>> FETCH_HEAD
 // __________________________________________
 // Write your code below.
 
@@ -18,6 +21,7 @@ var password = "just open the door";
 var allowedIn = false;
 var members = ["John", "Jesson", "Katia", "Mary"];
 
+<<<<<<< HEAD
 // __________________________________________
 // Refactored Code: Include a refactored version (or justification of your original code) here. 
 //
@@ -25,6 +29,9 @@ var members = ["John", "Jesson", "Katia", "Mary"];
 // We simply defined the variables that need to be tested.
 // There is no need to loop, or include any logic.
 // 
+=======
+
+>>>>>>> FETCH_HEAD
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
 // 
@@ -38,7 +45,7 @@ var members = ["John", "Jesson", "Katia", "Mary"];
 // four competencies. I enjoyed trying solve the errors in the challenge because it was like
 // solving a puzzle.
 // __________________________________________
-// Driver Test Code:  Do not alter code below this line.
+// Test Code:  Do not alter code below this line.
 
 function assert(test, message, test_number) {
   if (!test) {
