@@ -15,29 +15,37 @@ var terah = {
 /* Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
+define adam
 
 2. Give adam a name property with the value "Adam".
 
+define adam
+set name to adam
+
 3. Add a spouse property to terah and assign it the value of adam.
+add spouse that is equal to the variable adam
 
 4. Change the value of the terah weight property to 125.
+change weight to 125
 
 5. Remove the eyeColor property from terah.
+delete eyecolor
 
 6. Add a spouse property to adam and assign it the value of terah.
+spouse set to adam
 
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
-
+var children
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
-
+carson = carson under properties of children
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
-
+carter = carter under properties of children
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
-
+colton = colton under properties of children
 11. Add a children property to adam and assign it the value of terah children.
 
 
@@ -46,11 +54,43 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 130,
+  hairColor: "brown",
+  eyeColor: "brown"
+}
 
+var adam = {
+  name: "Adam"
+}
 
+terah.spouse = adam
 
+terah.weight = 125
 
+delete terah.eyeColor
 
+adam.spouse = terah
+
+var carson = {
+  name: "Carson"
+}
+var carter = {
+  name: "Carter"
+}
+var colton = {
+  name: "Colton"
+}
+
+var terah.children = {
+terah.children.carter = carter,
+terah.children.colton = colton,
+terah.children.carson = carson,}
+
+adam.children = terah.children
 
 
 // __________________________________________
