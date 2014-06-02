@@ -1,3 +1,32 @@
+
+function sum (array) {
+  var sum = 0;
+  for (i=0;i<array.length;i++) {
+    sum = sum + array[i];
+  }
+  return sum;
+}
+
+function average(array) {
+  var sum = 0;
+  for (i=0;i<array.length;i++) {
+    sum = sum + array[i];
+  }
+
+  return (sum/array.length);
+}
+
+function median(array) {
+  var sortedArray = array.sort();
+  if (array.length%2 === 0) {
+    var midArray = [sortedArray[sortedArray.length/2],sortedArray[sortedArray.length/2-1]];
+    return average(midArray)
+  }
+  else {
+    return sortedArray[Math.floor(sortedArray.length/2)]
+  }
+}
+
 // __________________________________________
 // Tests:  Do not alter code below this line.
 
@@ -14,6 +43,7 @@ function assert(test, message, test_number) {
   console.log(test_number + "true");
   return true;
 }
+
 
 // tests for sum
 assert(
