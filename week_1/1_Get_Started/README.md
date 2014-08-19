@@ -1,36 +1,74 @@
-[Back](../)
+[Back](README.md)
 
-# Get Started
+# Git and GitHub 
 
-Welcome to Phase 0 Week 1! We are starting with web basics (HTML & CSS) and introducing you to Phase 0 process.
+## Learning Competencies
+By the end of this lesson, you should be able to:
 
-## Learning Objectives
-Each challenge has learning objectives that describe what you should be able to do by the end of the lesson. Use these objectives to assess your understanding. You will reflect on the learning objectives and material in each challenge. 
+- Describe GitHub
+- Compare git and GitHub
+- Explain what version control is and does
 
-## Purpose
 
-### Why Github?
+## Releases 
+(i.e. directions - each release is necessary for the next release, so be sure to do everything in the order specified for all challenges)
 
-You'll be using Github every day at DBC ... and in your life as a professional developer.  It's how you will know what's going each day, find challenges to work, and collaborate with your team for your Phase 3 project.
+### Release 0: Sign up for GitHub
 
-In fact, many <a href="https://twitter.com/jeresig/status/33968704983138304" target="_blank">people</a> in the tech industry see your <a href="http://code.dblock.org/github-is-your-new-resume" target="_blank">Github profile as your new resume</a>.
+Have you signed up for [GitHub](http://www.github.com) yet? If not, [sign up here](http://www.github.com). Then follow [these instructions](https://help.github.com/articles/set-up-git) to install git and set up SSH keys. 
 
-We want you to get comfortable with git and Github as soon as possible.  We are using the desktop app to ease you into things, but later, we'll transition to the command-line interface.
+#### A. Username
 
-### Why start with the web, HTML, & CSS?
+I'm sure you've chosen an excellent and memorable username for GitHub, so don't forget it! When you see "[USERNAME]" in this guide, replace it with your username. For example, my username is "rmw".  So "github.com/**[USERNAME]**" becomes "github.com/**rmw**".
 
-You decided to attend DBC to become a Web application developer, right? As you probably know, more and more <a href="http://skillcrush.com/2012/08/08/saas/" target="_blank">software is build on the web</a>. Even desktop software ofte syncs with <a href="http://skillcrush.com/2012/04/19/the-cloud/" target="_blank">the cloud</a>. So it's important to get a feel of web development. 
 
-Moreover, the web is fun. You get to combine your knowledge of languages and see a result, but it's also confusing. As a developer you'll have to switch between languages -- HTML, CSS, Javascript, Ruby, etc -- all the time. **We want to get you comfortable with switching between different technologies** :smiley_cat:
+#### B. Install the GitHub App
 
-## Directions
+Download the GitHub desktop application.
 
-Complete the following challenges in order to get everything set up to dig into HTML & CSS this week.
+- [Mac](http://mac.github.com/)
+- [Windows](http://windows.github.com/)
 
-1. [Git and Github](1_git_and_github.md)
-2. [Set up your website repository](2_set_up_repo.md)
-3. [Basics of the Web](3_web_basics.md)
+*Note: if you are using Linux, you'll need to use the command line for Git. We will have instructions for this later.*
 
-#### Navigating online slide decks
+### Release 1: Learn
 
-A few of the resources are online slide decks from <a href="http://www.girldevelopit.com" target="_blank">Girl Develop It</a>.  **Navigate using the arrow keys on your keyboard.** Look at the **arrow images in the bottom right** to tell you which ways you can navigate.  You may be able to go *down* as well as *left*. You can also click on links in the slides.
+#### What's this git stuff?
+
+Go through the following resources to learn more about git and GitHub.
+
+* Read: [Version Control](http://skillcrush.com/2013/02/11/version-control/)
+* Slides: [Intro to Git and GitHub from GirlDevelopIt](http://girldevelopit.com/assets/github/index.html#/).  Use your arrow keys to navigate the slides.
+* Read Skillcrush's Git Series: [Git](http://skillcrush.com/2013/02/18/git/), [Getting Started with Git](http://skillcrush.com/2013/02/20/get-started-working-with-git/)
+* Video: [Git 3 Minute Primer](http://www.youtube.com/watch?v=_Jmkvv_nKTE)
+
+#### Git vs. GitHub
+
+Confused about the difference between git and GitHub? Try one of these articles:
+
+* [Git vs. GitHub for Dummies](http://stephaniehoh.github.io/blog/2013/10/07/git-vs-github-for-dummies/)
+* [Is Git the same as GitHub?](http://www.jahya.net/blog/?2013-05-git-vs-github)
+
+### Release 2: Reflection
+Reflecting is essential for solidifying your learning. You will be expected to complete a reflection for each challenge in Phase 0. It will help you learn how you learn, give opportunities for sharing resources, and help your instructors gauge your progress. Reflections are for you, but they will also be read by others, so make sure to write for an audience. 
+
+**Writing reflections for each challenge is mandatory.**
+
+Before you can complete your reflection, you'll need to click the "Fork" button at the top right of this page. 
+
+![Repo to Fork](../imgs/repo-to-fork.jpg)
+
+This will make a copy of the unit 1 curriculum repository into your personal GitHub account. This will be where you add reflections and later solutions. After you click fork, you should be taken from the Devbootcamp.com/phase_0_unit_1 repo to [USERNAME]/phase_0_unit_1
+
+
+![Forked Repo](../imgs/forked-repo.jpg)
+
+Reflect on your learning by editing the my_reflection.md file in the [1_get_started](./) folder (the folder you are in). You will be learning HTML this week, but these files have a `.md` extension. Do you know what that stands for? It stands for markdown, which is a text-to-HTML conversion tool.  If you would rather write in HTML, you can do that by changing the file extension from .md to .html. 
+
+You can complete the first 2 challenge reflections on github.com. Click on the my_reflection.md file in this folder. There should be a button to edit at the top. Click it. You'll add your reflection in markdown and write a commit message under "Commit changes". Once you type something there, you will want to click the "commit changes" button. **NOTE: It will not let you commit changes without a commit message.**
+
+![Editing Reflection](../imgs/adding-reflection.jpg)
+
+After you learn how to edit files locally and sync/push your changes (in the third challenge), you'll want to edit all files on your local `phase_0_unit_1` repository--more on that later. 
+
+
